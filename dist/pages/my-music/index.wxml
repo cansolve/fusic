@@ -1,7 +1,0 @@
-<block>
-    <view class="user-center">music
-        <view>
-            <bottom-tab tab="{{currentTab}}" __triggerObserer="{{ _triggerObserer }}"></bottom-tab>
-        </view>
-    </view>
-</block>

@@ -1,7 +1,0 @@
-
-page {
-  background: #EEEFF1;
-}
-page .page-main {
-  margin-bottom: 130rpx;
-}

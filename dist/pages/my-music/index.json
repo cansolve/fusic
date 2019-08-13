@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "bottom-tab": "../components/bottom-tab/index"
-  },
-  "navigationBarTitleText": "我的音乐",
-  "backgroundTextStyle": "#EEEFF1"
-}

@@ -1,9 +1,0 @@
-<block>
-    <view class="user-message">
-        <view class="user-message-list">
-            <message-item image="{{iconImage}}" __triggerObserer="{{ _triggerObserer }}" title="赞了我" subTitle="没有未读的啦"></message-item>
-            <message-item image="{{iconImage}}" __triggerObserer="{{ _triggerObserer }}" title="评论/回复" subTitle="没有收到新评论"></message-item>
-            <message-item image="{{iconImage}}" __triggerObserer="{{ _triggerObserer }}" title="时光小秘书" subTitle="没有收到新提醒"></message-item>
-        </view>
-    </view>
-</block>
