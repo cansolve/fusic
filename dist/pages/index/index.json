@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "movie-showing-item": "../components/movie-showing-item/index",
+    "bottom-tab": "../components/bottom-tab/index"
+  },
+  "navigationBarTitleText": "正在热映"
+}

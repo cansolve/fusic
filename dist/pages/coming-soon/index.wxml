@@ -1,0 +1,11 @@
+<block>
+    <view class="page">
+        <view class="page-top"></view>
+        <view class="page-main">
+            <movie-un-show-item data="{{movieData}}" __triggerObserer="{{ _triggerObserer }}"></movie-un-show-item>
+        </view>
+        <view class="page-bottom">
+            <bottom-tab tab="{{currentTab}}" __triggerObserer="{{ _triggerObserer }}"></bottom-tab>
+        </view>
+    </view>
+</block>

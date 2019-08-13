@@ -1,0 +1,20 @@
+<block>
+    <view class="user-settings">
+        <view class="user-settings-avatar"><text>头像</text>
+            <view class="image">
+                <at-avatar circle="{{true}}" __triggerObserer="{{ _triggerObserer }}" image="{{avatarImage}}"></at-avatar>
+            </view>
+        </view>
+        <view class="user-settings-list">
+            <at-list className="gap" __triggerObserer="{{ _triggerObserer }}" hasBorder="{{false}}">
+                <at-list-item title="昵称" __triggerObserer="{{ _triggerObserer }}" extraText="三井寿" arrow="right" bindonclick="handleClick" __fn_onClick="{{true}}"></at-list-item>
+                <at-list-item title="性别" __triggerObserer="{{ _triggerObserer }}" extraText="男" arrow="right" bindonclick="handleClick" __fn_onClick="{{true}}"></at-list-item>
+                <at-list-item title="绑定手机" __triggerObserer="{{ _triggerObserer }}" extraText="158****0262" arrow="right" bindonclick="handleClick" __fn_onClick="{{true}}"></at-list-item>
+                <at-list-item title="生日" __triggerObserer="{{ _triggerObserer }}" extraText="1996-02-28" arrow="right" bindonclick="handleClick" __fn_onClick="{{true}}"></at-list-item>
+                <at-list-item title="居住地" __triggerObserer="{{ _triggerObserer }}" extraText="上海" arrow="right" bindonclick="handleClick" __fn_onClick="{{true}}"></at-list-item>
+                <at-list-item title="修改密码" __triggerObserer="{{ _triggerObserer }}" arrow="right" bindonclick="handleClick" __fn_onClick="{{true}}"></at-list-item>
+                <at-list-item title="管理收货地址" __triggerObserer="{{ _triggerObserer }}" arrow="right" hasBorder="{{false}}" bindonclick="handleClick" __fn_onClick="{{true}}"></at-list-item>
+            </at-list>
+        </view>
+    </view>
+</block>

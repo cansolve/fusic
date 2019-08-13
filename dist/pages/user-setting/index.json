@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "at-avatar": "../../npm/taro-ui/dist/weapp/components/avatar/index",
+    "at-list": "../../npm/taro-ui/dist/weapp/components/list/index",
+    "at-list-item": "../../npm/taro-ui/dist/weapp/components/list/item/index"
+  },
+  "navigationBarTitleText": "个人资料",
+  "backgroundTextStyle": "#EEEFF1"
+}

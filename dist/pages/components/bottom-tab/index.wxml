@@ -1,0 +1,5 @@
+<block>
+    <view>
+        <at-tab-bar fixed="{{true}}" __triggerObserer="{{ _triggerObserer }}" tabList="{{tabList}}" bindonclick="showTab" current="{{tab}}" __fn_onClick="{{true}}"></at-tab-bar>
+    </view>
+</block>

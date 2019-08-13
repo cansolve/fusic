@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "movie-un-show-item": "../components/movie-unShow-item/index",
+    "bottom-tab": "../components/bottom-tab/index"
+  },
+  "navigationBarTitleText": "即将上映"
+}

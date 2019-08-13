@@ -1,0 +1,67 @@
+
+.list {
+  padding: 20rpx;
+  margin: 10rpx 0;
+  font-size: 26rpx;
+  border-radius: 5rpx;
+  background: #FFFFFF;
+}
+.list-main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.list-main-left {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.list-main-image {
+  width: 120rpx;
+  height: 180rpx;
+}
+.list-main-right {
+  -webkit-box-flex: 5;
+  -webkit-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+  margin-left: 20rpx;
+}
+.list-item {
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.list-item .title {
+  font-size: 30rpx;
+  font-weight: 600;
+}
+.list-item-center {
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #666666;
+}
+.list-item-center .count {
+  color: lightcoral;
+}
+.list-item-center .divide {
+  padding: 0 5rpx;
+}
+.list-item .actor {
+  color: #666666;
+}
+.list-item .operation {
+  float: right;
+  width: 120rpx;
+  text-align: center;
+  border-radius: 5rpx;
+}
+.list-item .wantSee {
+  color: lightcoral;
+  border: 1rpx solid lightcoral;
+}
+.list-item .sell {
+  color: #679c21;
+  border: 1rpx solid #679c21;
+}

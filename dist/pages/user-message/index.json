@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "message-item": "../components/message-item/index"
+  },
+  "navigationBarTitleText": "我的消息",
+  "backgroundTextStyle": "#EEEFF1"
+}

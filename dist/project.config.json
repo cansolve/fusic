@@ -1,0 +1,16 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "Fusic",
+  "description": "taro-mtime",
+  "appid": "wxb4439be5df035398",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "nodeModules": true
+  },
+  "compileType": "miniprogram",
+  "condition": {}
+}

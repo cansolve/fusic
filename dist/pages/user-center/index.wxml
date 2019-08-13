@@ -1,0 +1,41 @@
+<block>
+    <view class="user-center">
+        <view class="user-center-top">
+            <view class="user-settings">
+                <at-icon className="user-icon-right" __triggerObserer="{{ _triggerObserer }}" value="bell" size="24" color="#999" bindonclick="showMessages" __fn_onClick="{{true}}" data-e-onclick-so="this"></at-icon>
+                <at-icon className="user-icon-right settings" __triggerObserer="{{ _triggerObserer }}" value="settings" size="24" color="#999" bindonclick="showSettings" __fn_onClick="{{true}}" data-e-onclick-so="this"></at-icon><text class="clearfix"></text>
+            </view>
+            <view class="user-info gap">
+                <view class="user-info-avatar">
+                    <at-avatar circle="{{true}}" __triggerObserer="{{ _triggerObserer }}" image="{{infos.avatarUrl}}"></at-avatar>
+                </view>
+                <view class="user-info-detail">
+                    <at-list className="gap" __triggerObserer="{{ _triggerObserer }}" hasBorder="{{false}}">
+                        <at-list-item title="{{name}}" __triggerObserer="{{ _triggerObserer }}" note="{{infos.city}}" hasBorder="{{false}}"></at-list-item>
+                    </at-list>
+                </view>
+            </view>
+        </view>
+        <view class="user-center-list">
+            <at-list className="gap" __triggerObserer="{{ _triggerObserer }}" hasBorder="{{false}}">
+                <at-list-item title="时光商城" __triggerObserer="{{ _triggerObserer }}" arrow="right" bindonclick="handleClick" __fn_onClick="{{true}}" data-e-onclick-so="this"></at-list-item>
+                <at-list-item title="电影票订单" __triggerObserer="{{ _triggerObserer }}" arrow="right" bindonclick="handleClick" __fn_onClick="{{true}}"></at-list-item>
+                <at-list-item title="商品订单" __triggerObserer="{{ _triggerObserer }}" arrow="right" bindonclick="handleClick" __fn_onClick="{{true}}"></at-list-item>
+                <at-list-item title="购物车" __triggerObserer="{{ _triggerObserer }}" arrow="right" bindonclick="handleClick" __fn_onClick="{{true}}"></at-list-item>
+                <at-list-item title="会员俱乐部" __triggerObserer="{{ _triggerObserer }}" extraText="签到抽好礼" arrow="right" bindonclick="handleClick" __fn_onClick="{{true}}"></at-list-item>
+                <at-list-item title="我的活动" __triggerObserer="{{ _triggerObserer }}" arrow="right" bindonclick="handleClick" __fn_onClick="{{true}}"></at-list-item>
+                <at-list-item title="直播" __triggerObserer="{{ _triggerObserer }}" arrow="right" hasBorder="{{false}}" bindonclick="handleClick" __fn_onClick="{{true}}"></at-list-item>
+            </at-list>
+        </view>
+        <view class="bottom-tab">
+            <at-list className="gap" __triggerObserer="{{ _triggerObserer }}" hasBorder="{{false}}">
+                <at-list-item title="客服/反馈" __triggerObserer="{{ _triggerObserer }}" arrow="right" bindonclick="handleClick" __fn_onClick="{{true}}"></at-list-item>
+                <at-list-item title="基本设置" __triggerObserer="{{ _triggerObserer }}" arrow="right" bindonclick="handleClick" __fn_onClick="{{true}}"></at-list-item>
+                <at-list-item title="关于项目" __triggerObserer="{{ _triggerObserer }}" arrow="right" hasBorder="{{false}}" bindonclick="handleClick" __fn_onClick="{{true}}"></at-list-item>
+            </at-list>
+        </view>
+        <view>
+            <bottom-tab tab="{{currentTab}}" __triggerObserer="{{ _triggerObserer }}"></bottom-tab>
+        </view>
+    </view>
+</block>
